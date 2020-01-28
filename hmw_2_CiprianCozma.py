@@ -40,12 +40,7 @@ while True:
         sumaOdd += number
     if number == 0:
         break
-    if number > 0:
-        continue
-
 
 print("Max number: ", max(maxNumber))
 print("Sum odd numbers: ", sumaOdd)
 
-# Sa se afiseze numarul maxim de numere citite consecutiv crescator
-# Si aici la fel sunt impotmolit, ce ar trebui sa afisez daca am 1 2 3 0 4 5 6 ca input?

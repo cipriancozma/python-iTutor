@@ -6,7 +6,7 @@ while(number != generated):
     number = int(input("Enter number:"))
     if number < generated:
 	    print("Caut un numar mai mare")
-    else:
+    elif number > generated:
 	    print("Caut un numar mai mic")
-
-print("Corect!")
+    else: 
+        print("Corect!")
